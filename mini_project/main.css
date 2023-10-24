@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+
+/*슬라이더부분*/
+.c-slider{
+    position: relative;
+}
+
+.bxslider img{
+    max-width: 100%;
+}
+
+.bx-pager{
+    display: none;
+}
+
+.bx-wrapper{
+        height: 60vh;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: none !important;
+}
+
+.bx-prev{
+    display: none;
+}
+
+.bx-next{
+    display: none;
+}
+
+.thumbnail-container{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.kvNav{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+
+.swiper-slide{
+    height: 50px;
+    align-content: center;
+    padding-right: 10%;
+    border-right: 1px solid #e6e6e6;
+}
+
+.swiper-slide a{    
+    display: flex;
+    text-decoration: none;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    color: #3c3c3c;
+    font-size: 12px;
+}
+
+.swiper-icon img{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-text{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/*슬라이드 밑에 기사 
+h2 새롭게부터~*/
+.article_list{
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 70px;
+
+}
+.article-h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.article_span{
+    margin-left: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.topic-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ncmn-grid__col{
+    width: 280px;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+/* 결합자 호버 */
+.ncmn-u-linkbox:hover > .ncmn-softUnit__main { 
+    color: red;
+}
+
+.ncmn-thumb img{
+    width: 280px;
+    height: 160px;
+}
+.ncmn-u-linkbox{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.ncmn-softUnit__main{
+    padding: 1em 0 0;
+    width: 100%;
+    
+}
+
+.ncmn-softUnit__name{
+    border: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+.ncmn-softUnit__sub{
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #8c8c8c;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 1em;
+    width: 100%;/*밑에 Status 오른쪽으로 미는 역할*/
+}
+
+.ncmn-softUnit__status{
+    padding-top: 20px;
+    display: flex;
+}
+
+.ncmn-softUnit__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.ncmn-softUnit__rating img{
+    width: 34px;
+    height: 40px;
+}
+
+.ncmn-softUnit__language img{
+    width: 44px;
+    height: 27px;
+}
+
+.ncmn-softUnit__release{
+    font-weight: 700;
+}
+
+.article-topics-bottom{
+    display: block;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    width: 188px;
+}
+.article-topics-bottom a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #e60012;
+    border: 2px solid #e60012;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 42px;
+    line-height: 38px;
+    outline: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+/*밑 배너*/
+.row_banner{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.banner_eshop{
+    text-decoration: none;
+    display: block;
+    height: 140px;
+    background: #fe7c0a url(img/main_banner_eshop.gif) ;
+    font-size: 0;
+}
