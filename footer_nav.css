@@ -1,0 +1,143 @@
+/* footer css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Malgun Gothic", "맑은 고딕", sans-serif !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.foot_nav {
+  width: 100%;
+  height: 99px;
+  display: inline-flex;
+  position: relative;
+  justify-content: space-evenly;
+  padding: 0px 0;
+  background-color: #e60012;
+}
+.inner_nav {
+  -webkit-box-pack: justify;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 63%;
+  background-color: #e60012;
+}
+.gotoTop {
+  top: 50%;
+  right: 20px;
+  margin-top: -12px;
+}
+.gotoTop {
+  position: absolute;
+  float: right;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  font-size: 0;
+  text-indent: -999999px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  top: 50%;
+  right: 20px;
+  margin-top: -12px;
+}
+.gotoTop:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 6px;
+  width: 12px;
+  height: 9px;
+  z-index: 999;
+  background: url(/Heewon/btn_switch_main_gotoTop.png) no-repeat center right;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gotoTop:hover {
+  width: 70px;
+  background-color: #fff;
+}
+.gotoTop:hover:after {
+  background-image: url(/Heewon/btn_switch_main_gotoTop.png);
+}
+.gotoTop:hover:before {
+  content: "TOP";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin-top: -7px;
+  color: #e60012;
+  text-indent: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.inner_foot {
+  height: 33%;
+}
+
+.foot_logo {
+  position: absolute;
+  display: block;
+  width: 12%;
+  left: -14px;
+  top: 27px;
+}
+.sns {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.sns1 {
+  width: 350px;
+}
+
+.foot_botton {
+  background-color: white;
+}
+.foot_end {
+  background-color: #f5f5f5;
+  padding: 30px 0;
+  margin-bottom: 0;
+  width: 1905px;
+  height: 122px;
+}
+.foot_end_wrap_box {
+  position: relative;
+  display: flex;
+}
+.foot_end_wrap {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+.cs_info {
+  position: absolute;
+  right: 0px;
+}
+
+.bl {
+  position: absolute;
+  right: 0;
+  display: block;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.ads {
+  position: absolute;
+  margin-top: 50px;
+}

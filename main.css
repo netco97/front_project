@@ -1,0 +1,459 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif !important;
+}
+
+/*header*/
+
+  #icon {
+    height: 19px;
+    width: 29px;
+    color: #b4b4b4 !important;
+  }
+  
+  .head {
+    background-color: inherit;
+    box-sizing: border-box;
+    height: 76px;
+    position: relative;
+    z-index: 9999;
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif !important;
+    letter-spacing: -1.12px !important;
+    line-height: 1 !important;
+  }
+  .nav > h1 {
+    background-color: #e60012;
+    height: 75px;
+    padding: 0;
+  }
+  .nav {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+    height: 73px;
+  }
+  .logo {
+    position: relative;
+    background-color: #e60012;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    height: 73px;
+    width: 15vw;
+  }
+  .log_img {
+    position: absolute;
+  }
+  
+  
+  .drop_wrap {
+    width: calc(100% - 15vw);
+  }
+  .nav_list {
+    -ms-flex-pack: distribute;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 74px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .list_el {
+    align-items: center;
+    border-right: 1px solid #e6e6e6;
+    color: #3c3c3c !important;
+    cursor: pointer;
+    display: flex;
+    font-size: clamp(11px, 1.2vw, 14px) !important;
+    font-weight: 700;
+    height: 100%;
+    justify-content: center;
+    padding: 0 80px;
+    position: relative;
+    z-index: 99;
+  }
+  .nav_drop {
+    background: #fff;
+    height: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 75px;
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+    -webkit-transition: height 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.1s;
+    transition: height 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) 0.1s;
+    width: 100%;
+    z-index: 999;
+  }
+  .list_el:hover > .container_wrap {
+    display: block;
+  }
+  
+  .character:hover > .container_wrap11 {
+    display: block;
+  }
+  .list_el:hover {
+    border-bottom: 3px solid red;
+  }
+  .list_el_test{
+    width: 3% !important;
+    padding-left: 3%;
+  }
+  
+
+/*슬라이더부분*/
+.c-slider{
+    position: relative;
+}
+
+.bxslider img{
+    max-width: 100%;
+}
+
+.bx-pager{
+    display: none;
+}
+
+.bx-wrapper{
+        height: 60vh;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: none !important;
+}
+
+.bx-prev{
+    display: none;
+}
+
+.bx-next{
+    display: none;
+}
+
+.thumbnail-container{
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.kvNav{
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+
+.swiper-slide{
+    height: 50px;
+    align-content: center;
+    padding-right: 10%;
+    border-right: 2px solid #e6e6e6;
+}
+
+.swiper-slide a{    
+    display: flex;
+    text-decoration: none;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    color: #3c3c3c;
+    font-size: 12px;
+}
+
+.swiper-icon img{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-text{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+/*슬라이드 밑에 기사 
+h2 새롭게부터~*/
+.article_list{
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 70px;
+
+}
+.article-h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.article_span{
+    margin-left: 11px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.topic-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ncmn-grid__col{
+    width: 280px;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 10px;
+}
+/* 결합자 호버 */
+.ncmn-u-linkbox:hover > .ncmn-softUnit__main { 
+    color: red;
+}
+
+.ncmn-thumb img{
+    width: 280px;
+    height: 160px;
+}
+.ncmn-u-linkbox{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.ncmn-softUnit__main{
+    padding: 1em 0 0;
+    width: 100%;
+    
+}
+
+.ncmn-softUnit__name{
+    border: none;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+.ncmn-softUnit__sub{
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #8c8c8c;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 1em;
+    width: 100%;/*밑에 Status 오른쪽으로 미는 역할*/
+}
+
+.ncmn-softUnit__status{
+    padding-top: 20px;
+    display: flex;
+}
+
+.ncmn-softUnit__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.ncmn-softUnit__rating img{
+    width: 34px;
+    height: 40px;
+}
+
+.ncmn-softUnit__language img{
+    width: 44px;
+    height: 27px;
+}
+
+.ncmn-softUnit__release{
+    font-weight: 700;
+}
+
+.article-topics-bottom{
+    display: block;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    width: 188px;
+}
+.article-topics-bottom a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #e60012;
+    border: 2px solid #e60012;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 42px;
+    line-height: 38px;
+    outline: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+/*밑 배너*/
+.row_banner{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.banner_eshop{
+    text-decoration: none;
+    display: block;
+    height: 140px;
+    background: #fe7c0a url(img/main_banner_eshop.gif) ;
+    font-size: 0;
+}
+
+/*밑에 밑에 배너*/
+.banner_wrap{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 8%;
+    padding-bottom: 2%;
+}
+
+.banner{
+    width: 31%;
+}
+
+/*online store */
+.online_store{
+    margin-top: 80px;
+}
+
+.etc{
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color : #3c3c3c;
+}
+
+.st_tbl_border {
+    width: 80%;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 30%;
+    border-bottom: 1px solid black;
+    border-left: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+}
+
+.st_tbl_border > li {
+    border-right: 2px solid #e6e6e6;
+    width: 33.33%;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.st_tbl_border > li > a{
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.st_tbl_border > li > a> img{
+    float: left;
+    margin-left: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.r_arrow{
+    margin-left: 50px;
+}
+
+
+/*notification*/
+.notification{
+    display: block;
+    margin-top: 7%;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    overflow: hidden;
+    padding: 22px 0;
+}
+
+.notification__inner{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0 40px;
+    position: relative;
+}
+
+.notification__headline{
+    font-size: 16px;
+    padding-right: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+.notification__headline > span{
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    color: #8c8c8c;
+    font-weight: 700;
+    letter-spacing: 0;
+    position: relative;
+}
+
+.ncmn-notification__textBody {
+    border-left: 2px solid #e6e6e6;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 0 10px 44px;
+    text-align: left;
+    width: 84%;
+}
+
+.ncmn-notification__text {
+    display: flex;
+    padding: 5px 0;
+    position: relative;
+}
+
+.ncmn-notification__text > a{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-weight: 700;
+    color: #8c8c8c;
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.ncmn-notification__text > a:hover{
+    color: red;
+}

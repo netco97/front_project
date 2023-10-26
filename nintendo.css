@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.local-container{
+    position: relative;
+    height: 1080px;
+    background-color: #e60012;
+    border-bottom: 2px solid white;
+}
+.local-outer{
+    position: relative;
+    overflow: hidden;
+    
+}
+.local-logo{
+    z-index: 100;
+    float: right;
+}
+.local-logo img{
+    width: 235px;
+}
+.local-body{
+    display: flex;
+}
+/*item 1 */
+.local-body-item1{
+    position: absolute;
+    max-width: 649px;
+    margin: 386px 271px;
+    z-index: 3;
+}
+
+
+.local-body-item1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.local-body-item1-pic{
+    height: 200px;
+}
+
+.local-body-item1-name{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;   
+}
+
+.local-body-item1-button{
+    margin-left: 28%;
+    margin-right: 40%;
+}
+
+.span-div{
+    position: relative;
+}
+.item-span{
+    position: absolute;
+    padding: 10px 60px 10px 60px;
+    background-color: rgb(182, 46, 46);
+}
+.item-span2{
+    position: absolute;
+    top: 700px;
+    padding: 10px 60px 10px 60px;
+    background-color: rgb(182, 46, 46);
+}
+
+.local-body-item2{
+    position: relative;
+    max-width: 649px;
+    margin-left: 40%;
+    margin-top: 5%;
+    z-index: 5;
+}
+
+.local-body-item2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.local-body-item2-pic{
+    height: 600px;
+}
+
+.local-body-item2-name{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;   
+}
+
+.local-body-item2-button{
+    margin-left: 35%;
+    margin-right: 40%;
+}
+
+
+.local-body-item3{
+    position: absolute;
+    max-width: 649px;
+    margin: 400px 1300px;
+    z-index: 3;
+}
+
+
+.local-body-item3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.local-body-item3-pic{
+    height: 200px;
+}
+
+.local-body-item3-name{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;   
+}
+
+.local-body-item3-button{
+    margin-left: 25%;
+    margin-right: 40%;
+}
+
+.nc3-a-button >div > span{
+    color: white;
+    font-size: 20px;
+}
+
+.local-body-footer{
+    margin-top: 150px;
+    width: 100%;
+}
+.local-body-footer-inner{
+    width: 90%;
+    display: flex;
+    height: 70px;
+    margin: auto;
+    padding-left: 18%;
+    line-height: 70px;
+}
+
+.nc3-a-button{
+    border: 1px solid white;
+    padding-inline: 250px;
+}
+
+
+/*local btn*/
+.local-btn1{
+    background-color: red;
+    position: relative;
+}
+.logo{
+    background-color:transparent !important
+}
+.local-btnText{
+    padding-left: 30px;
+}
+
+.character2{
+    position: relative;
+    margin-left: 150px;
+}
+
+.local-btn1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+.local-btn-Inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-main{
+    display: flex;
+}
+
+.local-btn2 > a{
+    text-decoration: none;
+    color: black;
+}
+
+.local-btnText__txt{
+    line-height: 10px;
+}
+
+.nc3-image-test{
+    margin: 69px;
+    position: relative;
+    left: -200px;
+}
+
+.local-btn-Inner2{
+    display: flex;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.local-btn2-a{
+    position: relative;
+    right: 85px;
+}
+
+/* soft-wrapper */
+.soft-wrapper{
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.soft-link-title{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.soft-link-title-body{
+    display: flex;
+    align-items: center;
+}
+
+.soft-link-left{
+    padding-right: 600px;
+}
+
+.soft-link-right-text{
+    color: white;
+}
+
+.bx-wrapper{
+    border: 1px solid black !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+.bx-viewport{
+    border: 1px solide black !important;
+    background-color: black !important;
+}
+
+.soft-link-footer{
+    color: white;
+}
+
+.link-footer-box{
+    width: 7%;
+    padding-top : 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-footer-box > span{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
